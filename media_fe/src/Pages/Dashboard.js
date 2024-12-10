@@ -7,7 +7,7 @@ export default function Dashboard() {
     <div>
          <Banner/>  
          <Navbar/> 
-        Dashboard
+        Dashboard director and artist
         <Footer/>
         </div>
   )
