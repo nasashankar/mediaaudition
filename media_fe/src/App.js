@@ -8,6 +8,7 @@ import Register from './Pages/Register';
 import AboutUs from './Pages/AboutUs';
 import Services from './Pages/Services';
 import ContactUs from './Pages/ContactUs';
+import Dashboard from './Pages/Dashboard';
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
           <Route path="/Aboutus" element={<AboutUs/>}/>
           <Route path="/Services" element={<Services/>}/>
           <Route path="/Contactus" element={<ContactUs/>}/>
+          <Route path="/Dashboard" element={<Dashboard/>}/>
           
           
          
