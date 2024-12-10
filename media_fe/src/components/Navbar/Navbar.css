@@ -1,0 +1,27 @@
+.navbar
+{
+    background-color: #919191;
+    padding: 20px;
+    text-align: right;
+    color: #f8f8f8;
+}
+.Right_navbar
+{
+    float: left;
+    color: #fff;
+}
+.Left_navbar 
+{
+    color: #242424;
+    
+}
+
+.Left_navbar a
+{
+    color: #242424;
+    text-decoration: none;
+}
+.bg-body-tertiary
+{
+    background-color: #242424;
+}
