@@ -5,6 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.css'; // Import the CSS file for styling
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
+
+
 function OffcanvasExample() {
   return (
     <>
@@ -25,10 +27,13 @@ function OffcanvasExample() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content flex-grow-1 pe-3">
+                
+                
                   <Nav.Link href="home">Home</Nav.Link>
                   <Nav.Link href="aboutus">About Us</Nav.Link>
                   <Nav.Link href="services">Services</Nav.Link>
                   <Nav.Link href="contactus">Contacts</Nav.Link>
+                
                
                 </Nav>
                 
